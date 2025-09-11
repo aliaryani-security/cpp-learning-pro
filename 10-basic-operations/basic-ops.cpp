@@ -27,5 +27,20 @@ using namespace std
     ; result = number2 % number1
     ; cout << "Result: " << result << endl
 
+    // * Prefix and Postfix Increment/Decrement
+    // postfix:
+    ; int value {5}
+    ; cout << "The value is: " << value << endl //5
+    ; cout << "The value++ is: " << value++ << endl //5
+    ; cout << "The value is: " << value << endl //5
+    ; value = 5
+    ; cout << "The value is: " << value << endl // 5
+    ; cout << "The value-- is: " << value-- << endl // 5
+    ; cout << "The value is: " << value << endl // 4
+    // prefix:
+    ; value = 5
+    ; cout << "The ++value is: " << ++value << endl // 6
+    ; cout << "The value is: " << value << endl //6
+
     ; return 0 ;
 }
