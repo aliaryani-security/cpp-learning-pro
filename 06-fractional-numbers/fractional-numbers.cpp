@@ -19,6 +19,10 @@ using namespace std
     ; cout << "Long double number: " << long_double_number
         << endl << "Size of long double number: " <<
         sizeof(long_double_number) << endl
+
+    // infinity and NaN
+    ; cout << 12.0/0 << endl // infinity
+    ; cout << 0.0/0 << endl // NaN
     
     ; return 0 ;
 }
