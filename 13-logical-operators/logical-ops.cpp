@@ -11,6 +11,8 @@ using namespace std
     ; cout << "a && c: " << (a && c) << endl
     // NOT
     ; cout << "!a: " << !a << endl
+    // OR: evaluates to true even if only one of the vars is true
+    ; cout << "b || c: " << (b || c) << endl
 
     ; return 0 ;
 }
