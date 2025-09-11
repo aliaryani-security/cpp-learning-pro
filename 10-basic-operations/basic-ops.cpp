@@ -23,5 +23,9 @@ using namespace std
     ; result = number2 / number1
     ; cout << "Result: " << result << endl
 
+    // Modulus
+    ; result = number2 % number1
+    ; cout << "Result: " << result << endl
+
     ; return 0 ;
 }
