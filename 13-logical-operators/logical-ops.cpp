@@ -9,6 +9,8 @@ using namespace std
     // AND
     ; cout << "a && b: " << (a && b) << endl
     ; cout << "a && c: " << (a && c) << endl
+    // NOT
+    ; cout << "!a: " << !a << endl
 
     ; return 0 ;
 }
