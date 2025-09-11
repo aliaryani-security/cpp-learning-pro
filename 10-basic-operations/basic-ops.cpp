@@ -12,6 +12,8 @@ using namespace std
     // subtraction
     ; result = number2 - number1
     ; cout << "Result: " << result << endl
+    ; result = number1 - number2
+    ; cout << "Result: " << result << endl
 
     ; return 0 ;
 }
