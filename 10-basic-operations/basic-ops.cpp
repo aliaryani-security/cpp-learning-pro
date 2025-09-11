@@ -15,5 +15,9 @@ using namespace std
     ; result = number1 - number2
     ; cout << "Result: " << result << endl
 
+    // multiplication
+    ; result = number1 * number2
+    ; cout << "Result: " << result << endl
+
     ; return 0 ;
 }
