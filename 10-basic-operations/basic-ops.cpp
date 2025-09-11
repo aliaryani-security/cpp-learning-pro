@@ -19,5 +19,9 @@ using namespace std
     ; result = number1 * number2
     ; cout << "Result: " << result << endl
 
+    // division
+    ; result = number2 / number1
+    ; cout << "Result: " << result << endl
+
     ; return 0 ;
 }
