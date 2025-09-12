@@ -10,6 +10,9 @@ using namespace std
 ; constinit int buffer_size {1024} 
 
 ; int main () {
+    cout << "Buffer size: " << buffer_size << endl
+    ; buffer_size += 512 // it can be changed
+    ; cout << "Updated buffer size: " << buffer_size << endl
 
     ; return 0 ;
 }
