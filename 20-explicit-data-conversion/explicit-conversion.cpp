@@ -14,7 +14,10 @@ using namespace std
     ; cout << "sum: " << sum << endl
     ; cout << "size of sum: " << sizeof(sum) <<endl
     ; cout << endl
-
+    // explicit way:
+    ; sum = static_cast<int>(x) + static_cast<int>(y)
+    ; cout << "explicit sum: " << sum << endl
+    ; cout << "size of explicit sum: " << sizeof(sum) << endl
 
     ; return 0 ;
 }
