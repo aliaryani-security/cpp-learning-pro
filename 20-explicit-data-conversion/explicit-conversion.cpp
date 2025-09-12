@@ -18,6 +18,11 @@ using namespace std
     ; sum = static_cast<int>(x) + static_cast<int>(y)
     ; cout << "explicit sum: " << sum << endl
     ; cout << "size of explicit sum: " << sizeof(sum) << endl
+    /*
+    ? What's the difference here?
+    * in the implicit one, first x and y are added up, then converted
+    * in the explicit one, first x and y are converted, then added up
+    */
 
     ; return 0 ;
 }
