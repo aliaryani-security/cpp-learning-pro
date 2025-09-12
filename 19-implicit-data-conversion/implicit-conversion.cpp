@@ -2,6 +2,11 @@
 using namespace std
 
 ; int main () {
+    /*
+    all the data in an expresion must be of the same type
+    so the compiler will implicitly convert all of them 
+    into one type that is bigger in size (e.g. int -> double)
+    */
     double price {45.5}
     ; int units {10}
 
