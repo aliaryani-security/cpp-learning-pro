@@ -24,5 +24,12 @@ using namespace std
     * in the explicit one, first x and y are converted, then added up
     */
 
+    // old style C-cast:
+    ; double PI {3.14}
+    ; int int_pi = (int)(PI)
+    ; cout << "PI: " << PI << endl
+    ; cout << "int_pi: " << int_pi << endl
+    // don't use this style, the new one's better.
+
     ; return 0 ;
 }
