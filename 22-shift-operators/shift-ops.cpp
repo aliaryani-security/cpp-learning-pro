@@ -33,6 +33,11 @@ using namespace std
         // ? as you see, the values are changed a lot
         // * it's because we have lost one of the `1`s
     
+    // let's shift by one bit to the right
+    ; cout << endl << "shifting right: " << endl
+    ; value = static_cast<unsigned short int>(value >> 1)
+    ; cout << "value: " << bitset<16>(value) << endl // 0111111100000000
+        << "value in decimal: " << value << endl // 32512
 
     ; return 0 ;
 }
