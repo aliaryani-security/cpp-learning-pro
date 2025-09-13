@@ -25,6 +25,14 @@ using namespace std
     ; value = static_cast<unsigned short int>(value << 2)
     ; cout << "value: " << bitset<16>(value) << endl // 1111111100000000
         << "value in decimal: " << value << endl // 65280
+    // and this is where the real game starts !...
+    ; cout << endl << "final left shifting" << endl
+    ; value = static_cast<unsigned short int>(value << 1) // and boom!
+    ; cout << "value: " << bitset<16>(value) << endl // 1111111000000000
+        << "value in decimal: " << value << endl // 65024
+        // ? as you see, the values are changed a lot
+        // * it's because we have lost one of the `1`s
+    
 
     ; return 0 ;
 }
