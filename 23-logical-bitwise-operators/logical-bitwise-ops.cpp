@@ -19,7 +19,16 @@ using namespace std
     ; cout << endl
     ; cout << "Bitwise AND: " << endl
     ; cout << setw(COLUMN_WIDTH) << "value1 & value2: "
-        << setw(COLUMN_WIDTH) << bitset<8>(value1 & value2) << endl // 0000 0001
+        << setw(COLUMN_WIDTH) << bitset<8>(value1 & value2) // 0000 0001
+        << endl 
+    ; cout << endl
+
+    // OR
+    ; cout << endl
+    ; cout << "Bitwise OR: " << endl
+    ; cout << setw(COLUMN_WIDTH) << "value1 | value2"
+        << setw(COLUMN_WIDTH) << bitset<8>(value1 | value2) // 0000 0111
+        << endl
     ; cout << endl
 
     ; return 0 ;
