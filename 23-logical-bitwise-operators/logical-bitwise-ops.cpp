@@ -37,6 +37,13 @@ using namespace std
     ; cout << setw(COLUMN_WIDTH) << "~01001100: "
         << setw(COLUMN_WIDTH) << bitset<8>(~0b01001100) //1011 0011
         << endl
+    
+    // XOR
+    ; cout << endl
+    ; cout << "Bitwise XOR: " << endl
+    ; cout << setw(COLUMN_WIDTH) << "value1 ^ value2"
+        << setw(COLUMN_WIDTH) << bitset<8>(value1 ^ value2) // 0000 0110
+        << endl
 
     ; return 0 ;
 }
