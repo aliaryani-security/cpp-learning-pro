@@ -31,5 +31,12 @@ using namespace std
         << endl
     ; cout << endl
 
+    // NOT
+    ; cout << endl
+    ; cout << "Bitwise NOT: " << endl
+    ; cout << setw(COLUMN_WIDTH) << "~01001100: "
+        << setw(COLUMN_WIDTH) << bitset<8>(~0b01001100) //1011 0011
+        << endl
+
     ; return 0 ;
 }
