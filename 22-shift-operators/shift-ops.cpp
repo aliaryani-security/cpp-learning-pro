@@ -20,6 +20,11 @@ using namespace std
     ; value = static_cast<unsigned short int>(value << 1)
     ; cout << "value: " << bitset<16>(value) << endl // 0011111111000000
         << "value in decimal: " << value << endl // 16320
+    // now let's shift left by two bits
+    ; cout << "shifting left by 2 bits" << endl
+    ; value = static_cast<unsigned short int>(value << 2)
+    ; cout << "value: " << bitset<16>(value) << endl // 1111111100000000
+        << "value in decimal: " << value << endl // 65280
 
     ; return 0 ;
 }
