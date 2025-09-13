@@ -8,6 +8,7 @@ using namespace std
     ; cout << "Size of short int: " << sizeof(short int) << endl // 16
     
     ; cout << "value: " << bitset<16>(value) << endl // 0000111111110000
+        << "value in decimal: " << value << endl
 
     ; return 0 ;
 }
