@@ -15,5 +15,12 @@ using namespace std
         << setw(COLUMN_WIDTH) << bitset<8>(value2)
         << endl
 
+    // AND
+    ; cout << endl
+    ; cout << "Bitwise AND: " << endl
+    ; cout << setw(COLUMN_WIDTH) << "value1 & value2: "
+        << setw(COLUMN_WIDTH) << bitset<8>(value1 & value2) << endl // 0000 0001
+    ; cout << endl
+
     ; return 0 ;
 }
