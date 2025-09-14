@@ -30,5 +30,14 @@ int main () {
         cout << number2 << "is NOT less than " << number2 << endl;
     }
 
+    // using `else`
+    cout << endl << "using else" << endl;
+    
+    if (result == true) {
+        cout << number1 << " is less than " << number2 << endl;
+    } else {
+        cout << number1 << " is NOT less than " << number2 << endl;
+    }
+
     return 0;
 }
