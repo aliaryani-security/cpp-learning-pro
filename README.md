@@ -11,9 +11,9 @@
 - I will write an article about it in the future, and the link will be shared here
 - If you have any comments about it, message me [here](mailto:lenesis@proton.me)
 
-> I hereby annouce the end of ***Semicolon-First*** style practice
-> So far I've done 23 scriptings using it, I liked it, but I just
-> can't keep it going, people are going to suffer from it, I know that 😂
-> I'll write the article about such practice, as promised in README
-> If you didn't like it, Thanks for your suffering! But if you did,
+> I hereby annouce the end of ***Semicolon-First*** style practice<br>
+> So far I've done 23 scriptings using it, I liked it, but I just<br>
+> can't keep it going, people are going to suffer from it, I know that 😂<br>
+> I'll write the article about such practice, as promised <br>
+> If you didn't like it, Thanks for your suffering! But if you did,<br>
 > I'm glad you enjoyed it. Have fun coding 💎
