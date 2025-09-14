@@ -17,5 +17,18 @@ int main () {
     bool result = (number1 < number2);
     cout << boolalpha << "result: " << result << endl;
 
+    cout << endl;
+    cout << "free standing if statement" << endl;
+
+    //if(result)
+    if (result == true){
+        cout << number1 << " is less than " << number2 << endl;
+    }
+
+    //if(!result)
+    if (!(result == true)) {
+        cout << number2 << "is NOT less than " << number2 << endl;
+    }
+
     return 0;
 }
