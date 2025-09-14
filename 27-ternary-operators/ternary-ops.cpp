@@ -8,4 +8,9 @@ int main () {
 
     max = (a > b) ? a : b;
     cout << max << endl;
+
+    int min {(a < b) ? a : b};
+    cout << min << endl;
+
+    return 0;
 }
