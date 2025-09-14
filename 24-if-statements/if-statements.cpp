@@ -1,7 +1,21 @@
 #include <iostream>
-using namespace std
+using namespace std;
 
-; int main () {
+/*
+I hereby annouce the end of ***Semicolon-First*** style practice
+So far I've done 23 scriptings using it, I liked it, but I just
+can't keep it going, people are going to suffer from it, I know that 😂
+I'll write the article about such practice, as promised in README
+If you didn't like it, Thanks for your suffering! But if you did,
+I'm glad you enjoyed it. Have fun coding 💎
+*/
 
-    ; return 0 ;
+int main () {
+    int number1 {55};
+    int number2 {60};
+
+    bool result = (number1 < number2);
+    cout << boolalpha << "result: " << result << endl;
+
+    return 0;
 }
