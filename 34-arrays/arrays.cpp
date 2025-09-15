@@ -4,6 +4,8 @@ using namespace std;
 int main () {
     // declare the list of arrays
     int scores [10];
+    //see also:
+    int numbers [5]{12,34,56,78,90};
 
     // read data
     cout << "scores [0]: " << scores[0] << endl;
