@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iterator>
 using namespace std;
 
 int main () {
@@ -26,6 +27,12 @@ int main () {
     for (int i:scores) {
         cout << "score: " << i << endl;
     }
+
+    // finding array size
+    // using size() C++17 or later
+    cout << "size of scores: " << size(scores) << endl;
+    // using size of
+    cout << "size of scores:" << (sizeof(scores) / sizeof(scores[0])) << endl;
 
     return 0;
 }
