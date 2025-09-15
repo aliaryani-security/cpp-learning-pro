@@ -7,7 +7,7 @@ int main () {
     int number2 {20};
     int number3 {25};
 
-    int result = (number1 *= ++increment, number2 - (++increment), number3 += ++increment);
+    int result = (number1 *= ++increment, number2 -= (++increment), number3 += ++increment);
     cout << "number1: " << number1 << endl;
     cout << "number2: " << number2 << endl;
     cout << "number3: " << number3 << endl;
