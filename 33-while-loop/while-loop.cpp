@@ -7,6 +7,13 @@ int main () {
         cout << i << " I love C++" << endl;
         i++;
     }
+    // do while loop
+    cout << endl;
+    i = 0;
+    do {
+        cout << i << " I love C++" << endl;
+        i++;
+    } while (i < 10000); // feel the power 😂
 
     return 0;
 }
