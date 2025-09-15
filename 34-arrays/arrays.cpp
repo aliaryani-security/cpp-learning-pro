@@ -19,7 +19,11 @@ int main () {
     scores[7] = 2;
     scores[8] = 222;
     scores[9] = 783;
-    
+
+    // read using a loop
+    for (int i:scores) {
+        cout << "score: " << i << endl;
+    }
 
     return 0;
 }
