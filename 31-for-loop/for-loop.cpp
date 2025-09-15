@@ -11,5 +11,12 @@ int main () {
         cout << "X: " << x << " Y: " << y << " Z: " << z << endl;
     }
 
+    // range based 
+    cout << endl;
+    int bag_of_values [9] {1,2,3,4,5,6,7,8,9};
+    for (int value: bag_of_values) {
+        cout << "value: " << value << endl;
+    }
+
     return 0;
 }
