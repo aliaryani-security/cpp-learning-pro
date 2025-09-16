@@ -22,6 +22,11 @@ int main() {
         cout << "num1 in loop: " << num1 << endl;
     }
 
+    // srand()
+    // srand() sets the default starting point of rand()
+    srand(-12);
+    cout << rand() << endl;
+
 
     return 0;
 }
