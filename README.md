@@ -8,7 +8,7 @@
 - I'm a fan of _comma first_ style, read about it [here](https://eslint.org/docs/latest/rules/comma-style#first)
 - So I thought to myself, why not __Semicolon First__ ?!
 - Here I decided to put it into practice
-- I will write an article about it in the future, and the link will be shared here
+- I've explained it in details [here](https://dev.to/aliaryani-security/semicolon-first-a-psychotic-yet-interesting-way-of-writing-code-52j8)
 - If you have any comments about it, message me [here](mailto:lenesis@proton.me)
 
 > I hereby annouce the end of ***Semicolon-First*** style practice<br>
