@@ -13,6 +13,13 @@ int main() {
     cout << "sizeof(double): " << sizeof(double) << endl;
     cout << "sizeof(p_franctional_number): " << sizeof(p_franctional_number) << endl;
     cout << "sizeof(double*): " << sizeof(double*) << endl;
+
+    // assign data 
+    int int_var {43};
+    int* p_int{&int_var}; // & is for addressing
+
+    cout << "Int var: " << int_var << endl;
+    cout << "p_int (Address in memory): " << p_int << endl;
     
 
     return 0;
