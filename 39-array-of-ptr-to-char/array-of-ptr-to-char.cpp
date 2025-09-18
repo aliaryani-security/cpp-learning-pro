@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iterator>
 using namespace std;
 
 int main() {
@@ -16,6 +17,14 @@ int main() {
         "Life is sweet, or is it?",
         "Darkness settles in..."
     };
+
+    for (int i {0}; i < size(second_array); ++i) {
+        cout << "index [" << i << "]: " << second_array[i] << endl;
+    }
+
+    for (string item: second_array) {
+        cout << item << endl;
+    }
 
     return 0;
 }
