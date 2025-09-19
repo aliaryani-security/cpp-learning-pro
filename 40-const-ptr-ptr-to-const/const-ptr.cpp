@@ -44,5 +44,30 @@ int main () {
     cout << "number2: " << number2 << endl;
     cout << endl;
 
+    // pointer to const
+    // you cannot modify the data through pointer
+    cout << "mutable pointer, pointed to const:" << endl;
+    int number3 {233}; // although you can omit the `const` keyword in front
+                       // and your code will be compiled without any errors,
+                       // it's still recommended to be as explicit as possible
+                       // and put the const in front. Make your intentions clear.
+    const int* p_number3 {&number3}; // can't modify number3 through p_number3
+
+    cout << "p_number3: " << p_number3 << endl;
+    cout << "*p_number3: " << *p_number3 << endl;
+    cout << endl;
+    // *p_number3 = 12; //! compiler error
+
+    // although we can't change the value through pointer,
+    // we can change where the pointer is pointing
+    int number4 {712};
+    p_number3 = &number4;
+    cout << "p_number3: " << p_number3 << endl;
+    cout << "*p_number3: " << *p_number3 << endl;
+    cout << endl;
+    // you can't set up a mutable pointer to const data
+    const int some_data {63};
+    // int* p_some_data {&some_data}; // compiler error
+
     return 0;
 }
