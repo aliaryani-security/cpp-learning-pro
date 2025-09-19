@@ -69,5 +69,16 @@ int main () {
     const int some_data {63};
     // int* p_some_data {&some_data}; // compiler error
 
+    // both pointer and data are immutable
+    const int number5 {9523};
+    const int* const p_number5 {&number5};
+    cout << "pointer is immutable, value is immutable:" << endl;
+    cout << "p_number5: " << p_number5 << endl;
+    cout << "*p_number5: " << *p_number5 << endl;
+    // can't modify any of them
+    // number5 = 12; // compiler error
+    // p_number5 = &number1; // compiler error
+    // *p_number5 = 44; // compiler error
+
     return 0;
 }
