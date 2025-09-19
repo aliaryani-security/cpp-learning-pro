@@ -79,6 +79,21 @@ int main () {
     // number5 = 12; // compiler error
     // p_number5 = &number1; // compiler error
     // *p_number5 = 44; // compiler error
+    
+    // immutable pointer
+    cout << "immutable pointer, mutable value:" << endl;
+    int number6 {88};
+
+    int* const p_number6 {&number6};
+
+    cout << "p_number6: " << p_number6 << endl;
+    cout << "*p_number6: " << *p_number6 << endl;
+    // modifying the value:
+    *p_number6 = 77;
+    cout << "p_number6: " << p_number6 << endl;
+    cout << "*p_number6: " << *p_number6 << endl;
+    // can't make it point somewhere else
+    // p_number6 = &number3; // compiler error
 
     return 0;
 }
