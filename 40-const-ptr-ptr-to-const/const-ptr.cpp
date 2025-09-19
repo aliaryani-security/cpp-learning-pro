@@ -20,7 +20,15 @@ int main () {
     int* p_number1 {nullptr};
     int number1 {23};
     p_number1 = &number1;
-    cout << "ponter and value are both mutable:" <<endl;
+    cout << "pointer and value are both mutable:" <<endl;
+    cout << "p_number1: " << p_number1 << endl;
+    cout << "number1: " << number1 << endl;
+    cout << "*p_number1: " << *p_number1 << endl;
+    cout << endl;
+
+    // modify using pointer
+    cout << "modifying number1 through pointer: " << endl;
+    *p_number1 = 72;
     cout << "p_number1: " << p_number1 << endl;
     cout << "number1: " << number1 << endl;
     cout << "*p_number1: " << *p_number1 << endl;
