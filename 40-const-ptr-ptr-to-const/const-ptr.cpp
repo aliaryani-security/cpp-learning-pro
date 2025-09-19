@@ -32,6 +32,17 @@ int main () {
     cout << "p_number1: " << p_number1 << endl;
     cout << "number1: " << number1 << endl;
     cout << "*p_number1: " << *p_number1 << endl;
+    cout << endl;
+
+    // change the pointer itself and point somewhere else
+    cout << "Changing pointer to point somewhere else: " << endl;
+    int number2 {53};
+    p_number1 = &number2;
+    cout << "p_number1: " << p_number1 << endl;
+    cout << "*p_number1: " << *p_number1 << endl;
+    cout << "number1: " << number1 << endl;
+    cout << "number2: " << number2 << endl;
+    cout << endl;
 
     return 0;
 }
