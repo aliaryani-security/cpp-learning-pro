@@ -17,5 +17,18 @@ int main() {
     cout << "*p_score: " << *p_score << endl;
     cout << "p_score[0]: " << p_score[0] << endl;
 
+    // differences
+    int number {21};
+    p_score = &number;
+    cout << endl;
+    cout << "number: " << number << endl;
+    cout << "&number: " << &number << endl;
+    cout << "p_score: " << p_score << endl;
+    cout << "*p_score: " << *p_score << endl;
+    // but
+    // scores = &number; // compiler error
+    // the array is a pointer, but a special pointer
+    // it's like a const pointer that is immutable
+    
     return 0;
 }
