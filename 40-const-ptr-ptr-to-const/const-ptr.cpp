@@ -16,5 +16,14 @@ int main () {
     cout << "&number: " << &number << endl;
     cout << endl;
 
+    // pointer: can modify the data and the pointer itself
+    int* p_number1 {nullptr};
+    int number1 {23};
+    p_number1 = &number1;
+    cout << "ponter and value are both mutable:" <<endl;
+    cout << "p_number1: " << p_number1 << endl;
+    cout << "number1: " << number1 << endl;
+    cout << "*p_number1: " << *p_number1 << endl;
+
     return 0;
 }
