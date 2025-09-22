@@ -21,6 +21,7 @@ int main() {
     }
     cout << endl;
 
+    /*
     // swapping arrays the hard way:
     int temp[5];
     // move data from arr1 to temp
@@ -34,20 +35,31 @@ int main() {
     // move data from temp to arr0
     for(size_t i{};i<size(temp);++i){
         arr0[i] = temp[i];
-    }
+    }*/
+
+    // swapping using pointers
+    int* temp{nullptr};
+    int* p_arr0 {arr0};
+    int* p_arr1 {arr1};
+
+    temp = p_arr1;
+    p_arr1 = p_arr0;
+    p_arr0 = temp;
+
     // print arr0
     cout << "arr0: ";
     for (size_t i{}; i < size(arr0); ++i) {
-        cout << arr0[i] << " ";
+        cout << p_arr0[i] << " ";
     }
     cout << endl;
 
     // print arr1
     cout << "arr1: ";
-    for (size_t i: arr1) {
-        cout << i << " ";
+    for (size_t i{}; i < size(arr0);++i) {
+        cout << p_arr1[i] << " ";
     }
     cout << endl;
+
 
     return 0;
 }
