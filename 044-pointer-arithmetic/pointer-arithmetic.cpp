@@ -1,4 +1,6 @@
+#include <cstddef>
 #include <iostream>
+#include <iterator>
 using namespace std;
 
 int main() {
@@ -23,6 +25,13 @@ int main() {
     cout << "Explicit addition of integer:" << endl;
     p_score = scores; // reseting 
     cout << "scores[4]: " << *(p_score + 4) << endl;
+
+    // increment using a for loop
+    cout << endl;
+    cout << "using a for loop:" << endl;
+    for (size_t i{0}; i < size(scores) ; i++) {
+        cout << "value: " << *(p_score + i) << endl;
+    }
     
     return 0;
 }
