@@ -32,6 +32,13 @@ int main() {
     for (size_t i{0}; i < size(scores) ; i++) {
         cout << "value: " << *(p_score + i) << endl;
     }
+
+    // reverse order
+    cout << endl;
+    cout << "reverse order:" << endl;
+    for (size_t i {size(scores)}; i > 0; --i) {
+        cout << "value: " << *(p_score + i -1) << endl;
+    }
     
     return 0;
 }
