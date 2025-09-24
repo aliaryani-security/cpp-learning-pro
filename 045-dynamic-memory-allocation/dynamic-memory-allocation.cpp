@@ -56,5 +56,19 @@ int main() {
     delete p_number4;
     p_number4 = nullptr;
 
+    // it is also possible to initialise a pointer
+    // with a valid address on declaration
+    int* p_number5 {new int}; // contains junk value
+    int* p_number6 {new int (22)}; // using direct initialisation
+    int* p_number7 {new int {33}}; // using uniform initialisation
+    
+    // returning the memory
+    delete p_number5;
+    p_number5 = nullptr;
+    delete p_number6;
+    p_number6 = nullptr;
+    delete p_number7;
+    p_number7 = nullptr;
+
     return 0;
 }
