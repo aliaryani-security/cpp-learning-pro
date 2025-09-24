@@ -42,5 +42,19 @@ int main() {
     cout << "*p_number3: " << *p_number3 << endl; // error
     */
 
+    // ***Dynamic Heap Memory** //
+    int* p_number4 {nullptr};
+    p_number4 = new int; // Dynamically allocate space for a single int on the heap 
+                         // This space belongs to our program from now on, and system
+                         // cannot use it for anything else, until we return it.
+    *p_number4 = 77; // writing into dynamically allocated memory
+    cout << endl;
+    cout << "dynamic memory allocation:" << endl;
+    cout << "*p_number4: " << *p_number4 << endl;
+
+    // returning memory to the OS
+    delete p_number4;
+    p_number4 = nullptr;
+
     return 0;
 }
