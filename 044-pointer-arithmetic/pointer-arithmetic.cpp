@@ -39,6 +39,13 @@ int main() {
     for (size_t i {size(scores)}; i > 0; --i) {
         cout << "value: " << *(p_score + i -1) << endl;
     }
-    
+
+    // Distance between elements:
+    int* pointer1 {scores + 0};
+    int* pointer2 {scores + 8};
+    cout << endl;
+    cout << "pointer2 - pointer1: " << pointer2 - pointer1 << endl;
+    cout << "pointer1 - pointer2: " << pointer1 - pointer2 << endl;
+
     return 0;
 }
