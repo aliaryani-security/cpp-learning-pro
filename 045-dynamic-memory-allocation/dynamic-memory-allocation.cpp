@@ -29,7 +29,18 @@ int main() {
     cout << "printing it out:" << endl;
     cout << "p_number2: " << p_number2 << endl;
     cout << "dereferencing bad memory:" << endl;
-    cout << "*p_number2: " << *p_number2 << endl; */
+    cout << "*p_number2: " << *p_number2 << endl;
+
+    // initialising pointer to null:
+    int* p_number3 {nullptr};
+    cout << endl;
+    // cout << "writing data to nullptr memory:" << endl;
+    // *p_number3 = 33;
+    // cout << "Done writing." << endl;
+    cout << "reading through nullptr:" << endl;
+    cout << "p_number3: " << p_number3 << endl;
+    cout << "*p_number3: " << *p_number3 << endl; // error
+    */
 
     return 0;
 }
