@@ -55,5 +55,14 @@ int main() {
     cout << "negative: " << neg_diff << endl;
     cout << "sizeof(ptrdiff_t): " << sizeof(ptrdiff_t) << endl;
 
+    // comparing pointers
+    cout << endl;
+    cout << boolalpha;
+    cout << "Pointer comparison:" << endl;
+    cout << "pointer1 > pointer2: " << (pointer1 > pointer2) << endl;
+    cout << "pointer1 < pointer1: " << (pointer1 < pointer2) << endl;
+    cout << "pointer1 == pointer2: " << (pointer1 == pointer2) << endl;
+    cout << "pointer1 != pointer2: " << (pointer1 != pointer2) << endl;
+
     return 0;
 }
