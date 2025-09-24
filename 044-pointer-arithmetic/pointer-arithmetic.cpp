@@ -47,5 +47,13 @@ int main() {
     cout << "pointer2 - pointer1: " << pointer2 - pointer1 << endl;
     cout << "pointer1 - pointer2: " << pointer1 - pointer2 << endl;
 
+    // ptrdiff_t is a special type for storing pointer differences
+    ptrdiff_t pos_diff {pointer2 - pointer1};
+    ptrdiff_t neg_diff {pointer1 - pointer2};
+    cout << endl;
+    cout << "positive: " << pos_diff << endl;
+    cout << "negative: " << neg_diff << endl;
+    cout << "sizeof(ptrdiff_t): " << sizeof(ptrdiff_t) << endl;
+
     return 0;
 }
