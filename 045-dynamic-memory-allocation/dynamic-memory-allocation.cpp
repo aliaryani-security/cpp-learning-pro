@@ -70,5 +70,8 @@ int main() {
     delete p_number7;
     p_number7 = nullptr;
 
+    // ! REMEMBER NOT TO USE `delete` ON ONE POINTER TWICE
+    // ! IT WILL CAUSE UNDEFINED BEHAVIOUR
+
     return 0;
 }
