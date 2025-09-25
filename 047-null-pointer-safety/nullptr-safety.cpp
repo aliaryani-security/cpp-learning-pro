@@ -26,5 +26,9 @@ int main() {
     delete p_number;
     p_number = nullptr;
 
+    // it's ok to call delete on a nullptr
+    // also, multiple delete on nullptr won't cause problems
+    delete p_number;
+
     return 0;
 }
