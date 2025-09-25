@@ -15,5 +15,8 @@ int main() {
         cout << "p_number points to an invalid address" << endl;
     }
 
+    delete p_number;
+    p_number = nullptr;
+
     return 0;
 }
